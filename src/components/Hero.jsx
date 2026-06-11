@@ -57,6 +57,9 @@ function Hero() {
         <div className="hero-meta">
           <span className="hero-meta-item"><span className="hero-meta-icon">📅</span> {t.date}</span>
           <span className="hero-meta-item"><span className="hero-meta-icon">📍</span> {t.location}</span>
+          <span className="hero-meta-item hero-meta-register" onClick={handleRegisterClick}>
+            <span className="hero-meta-icon">📝</span> {t.registerHere}
+          </span>
         </div>
         <div className="countdown-wrap">
           <p className="countdown-label">{t.countdownLabel}</p>
