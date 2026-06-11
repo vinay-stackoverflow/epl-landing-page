@@ -27,7 +27,7 @@ function AppContent() {
       <FAQ />
       <Registration />
       <footer>
-        <p>{t.footer} <span>epltournament@epam.com</span></p>
+        <p>{t.footer} <span>epltournamant@epl.com</span></p>
       </footer>
     </>
   )

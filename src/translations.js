@@ -91,13 +91,13 @@ const translations = {
     // FAQ
     faq: {
       title: 'Frequently Asked Questions',
-      subtitle: 'Have questions? Reach us at epltournament@epam.com',
+      subtitle: 'Have questions? Reach us at epltournamant@epl.com',
       list: [
         { question: 'What is the EPL?', answer: 'The EPL (Premiere League) is an internal cricket tournament organised for employees. Season 8 is the latest and most exciting edition yet, featuring over 150 players competing across teams assembled through a live auction.' },
         { question: 'Where and when is the event taking place?', answer: 'EPL Season 8 spans three dates: the Grand Auction is on 20th June 2026, and the matches are held on 27th and 28th June 2026 at VKCA, Yelahanka.' },
         { question: 'How does the auction work?', answer: 'In the auction, over 150 registered players are put up for bidding. Team owners and captains place bids to recruit players into their squads. The highest bidder wins the player. Expect fierce competition and last-second drama!' },
         { question: 'Who can participate as a player?', answer: 'All employees are eligible to register as players for EPL Season 8. Once registered, you enter the player pool and will be available for bidding at the Grand Auction.' },
-        { question: 'Who do I contact if I have questions?', answer: 'For any queries, please reach out to the tournament team at epltournament@epam.com. We are happy to help!' },
+        { question: 'Who do I contact if I have questions?', answer: 'For any queries, please reach out to the tournament team at epltournamant@epl.com. We are happy to help!' },
       ],
     },
 
@@ -212,13 +212,13 @@ const translations = {
     // FAQ
     faq: {
       title: 'తరచుగా అడిగే ప్రశ్నలు',
-      subtitle: 'ప్రశ్నలు ఉన్నాయా? epltournament@epam.com కి సంప్రదించండి',
+      subtitle: 'ప్రశ్నలు ఉన్నాయా? epltournamant@epl.com కి సంప్రదించండి',
       list: [
         { question: 'EPL అంటే ఏమిటి?', answer: 'EPL (ప్రీమియర్ లీగ్) అనేది ఉద్యోగుల కోసం నిర్వహించబడే అంతర్గత క్రికెట్ టోర్నమెంట్. సీజన్ 8 అత్యంత ఉత్తేజకరమైన సంచిక, ఇందులో 150 కంటే ఎక్కువ ఆటగాళ్ళు లైవ్ వేలం ద్వారా ఏర్పాటైన జట్టులలో పోటీ పడతారు.' },
         { question: 'ఈవెంట్ ఎక్కడ మరియు ఎప్పుడు జరుగుతుంది?', answer: 'EPL సీజన్ 8 మూడు తేదీలలో జరుగుతుంది: గ్రాండ్ వేలం 20 జూన్ 2026న, మరియు మ్యాచ్‌లు 27 మరియు 28 జూన్ 2026న VKCA, యలహంకలో జరుగుతాయి.' },
         { question: 'వేలం ఎలా పని చేస్తుంది?', answer: 'వేలంలో, 150 కంటే ఎక్కువ నమోదైన ఆటగాళ్ళు బిడ్డింగ్‌కు పెట్టబడతారు. జట్టు యజమానులు మరియు కెప్టెన్లు తమ జట్టులోకి ఆటగాళ్ళను చేర్చుకోవడానికి బిడ్‌లు వేస్తారు. అత్యధిక బిడ్ వేసిన వ్యక్తి ఆటగాడిని గెలుచుకుంటారు.' },
         { question: 'ఆటగాడిగా ఎవరు పాల్గొనవచ్చు?', answer: 'అన్ని ఉద్యోగులు EPL సీజన్ 8లో ఆటగాళ్ళుగా నమోదు చేసుకోవడానికి అర్హులు. నమోదు చేసుకున్న తర్వాత, మీరు ఆటగాళ్ళ జాబితాలో చేరతారు మరియు గ్రాండ్ వేలంలో బిడ్డింగ్‌కు అందుబాటులో ఉంటారు.' },
-        { question: 'నాకు ప్రశ్నలు ఉంటే నేను ఎవరిని సంప్రదించాలి?', answer: 'ఏదైనా సందేహాల కోసం, దయచేసి epltournament@epam.com వద్ద టోర్నమెంట్ బృందాన్ని సంప్రదించండి. మేము సహాయం చేయడానికి సంతోషంగా ఉంటాము!' },
+        { question: 'నాకు ప్రశ్నలు ఉంటే నేను ఎవరిని సంప్రదించాలి?', answer: 'ఏదైనా సందేహాల కోసం, దయచేసి epltournamant@epl.com వద్ద టోర్నమెంట్ బృందాన్ని సంప్రదించండి. మేము సహాయం చేయడానికి సంతోషంగా ఉంటాము!' },
       ],
     },
 
@@ -295,13 +295,13 @@ const translations = {
     },
     faq: {
       title: 'अक्सर पूछे जाने वाले प्रश्न',
-      subtitle: 'प्रश्न हैं? epltournament@epam.com पर संपर्क करें',
+      subtitle: 'प्रश्न हैं? epltournamant@epl.com पर संपर्क करें',
       list: [
         { question: 'EPL क्या है?', answer: 'EPL (प्रीमियर लीग) कर्मचारियों के लिए आयोजित एक आंतरिक क्रिकेट टूर्नामेंट है। सीज़न 8 सबसे रोमांचक संस्करण है जिसमें 150 से अधिक खिलाड़ी लाइव नीलामी के माध्यम से बनी टीमों में प्रतिस्पर्धा करते हैं।' },
         { question: 'इवेंट कहाँ और कब होगा?', answer: 'EPL सीज़न 8 तीन तारीखों में होगा: ग्रैंड नीलामी 20 जून 2026 को, और मैच 27 तथा 28 जून 2026 को VKCA, येलहंका में।' },
         { question: 'नीलामी कैसे काम करती है?', answer: 'नीलामी में 150 से अधिक पंजीकृत खिलाड़ियों की बोली लगाई जाती है। टीम मालिक और कप्तान अपनी टीम में खिलाड़ियों को भर्ती करने के लिए बोली लगाते हैं। सबसे ऊंची बोली लगाने वाला खिलाड़ी को जीतता है।' },
         { question: 'खिलाड़ी के रूप में कौन भाग ले सकता है?', answer: 'सभी कर्मचारी EPL सीज़न 8 में खिलाड़ियों के रूप में पंजीकरण के पात्र हैं। पंजीकरण के बाद आप खिलाड़ी पूल में शामिल हो जाते हैं और ग्रैंड नीलामी में बोली के लिए उपलब्ध होते हैं।' },
-        { question: 'प्रश्न होने पर मैं किससे संपर्क करूं?', answer: 'किसी भी प्रश्न के लिए कृपया epltournament@epam.com पर टूर्नामेंट टीम से संपर्क करें। हम सहायता करके खुश होंगे!' },
+        { question: 'प्रश्न होने पर मैं किससे संपर्क करूं?', answer: 'किसी भी प्रश्न के लिए कृपया epltournamant@epl.com पर टूर्नामेंट टीम से संपर्क करें। हम सहायता करके खुश होंगे!' },
       ],
     },
     registration: {
@@ -374,13 +374,13 @@ const translations = {
     },
     faq: {
       title: 'प्रायः पृच्छ्यमानाः प्रश्नाः',
-      subtitle: 'प्रश्नाः सन्ति? epltournament@epam.com इत्यत्र सम्पर्कं कुरुत',
+      subtitle: 'प्रश्नाः सन्ति? epltournamant@epl.com इत्यत्र सम्पर्कं कुरुत',
       list: [
         { question: 'EPL किम् अस्ति?', answer: 'EPL (प्रीमियर लीग) कर्मचारिभ्यः आयोजिता आन्तरिका क्रिकेट-प्रतियोगिता अस्ति। अष्टमः सत्रः सर्वाधिक-रोमाञ्चकः संस्करणः, यत्र १५०+ क्रीडकाः जीवन्त-नीलामेन निर्मितेषु दलेषु प्रतिस्पर्धन्ते।' },
         { question: 'उत्सवः कुत्र कदा च भविष्यति?', answer: 'EPL अष्टमः सत्रः त्रिषु तिथिषु भविष्यति: भव्यनीलामी २० जून २०२६, स्पर्धाश्च २७ तथा २८ जून २०२६ VKCA येलहङ्कायाम्।' },
         { question: 'नीलामी कथं कार्यं करोति?', answer: 'नीलामे १५०+ नामाङ्कितक्रीडकाः निविदार्थं स्थाप्यन्ते। दल-स्वामिनः नायकाश्च स्वदलेषु क्रीडकान् भर्तुं निविदाः ददति। सर्वोच्च-निविदा-दाता क्रीडकं लभते।' },
         { question: 'क्रीडकरूपेण कः भागं ग्रहीतुं शक्नोति?', answer: 'सर्वे कर्मचारिणः EPL अष्टम-सत्रे क्रीडकरूपेण नामाङ्कनाय अर्हाः। नामाङ्कनानन्तरं भवन्तः क्रीडक-सञ्चये प्रविशन्ति।' },
-        { question: 'प्रश्नैः सह कं सम्पर्कं करोमि?', answer: 'किमपि जिज्ञासायां epltournament@epam.com इत्यत्र प्रतियोगिता-दलं सम्पर्कयत। वयं साहाय्यं कर्तुं प्रसन्नाः स्मः!' },
+        { question: 'प्रश्नैः सह कं सम्पर्कं करोमि?', answer: 'किमपि जिज्ञासायां epltournamant@epl.com इत्यत्र प्रतियोगिता-दलं सम्पर्कयत। वयं साहाय्यं कर्तुं प्रसन्नाः स्मः!' },
       ],
     },
     registration: {
@@ -453,13 +453,13 @@ const translations = {
     },
     faq: {
       title: 'ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು',
-      subtitle: 'ಪ್ರಶ್ನೆಗಳಿವೆಯೇ? epltournament@epam.com ಗೆ ಸಂಪರ್ಕಿಸಿ',
+      subtitle: 'ಪ್ರಶ್ನೆಗಳಿವೆಯೇ? epltournamant@epl.com ಗೆ ಸಂಪರ್ಕಿಸಿ',
       list: [
         { question: 'EPL ಎಂದರೇನು?', answer: 'EPL (ಪ್ರೀಮಿಯರ್ ಲೀಗ್) ಉದ್ಯೋಗಿಗಳಿಗಾಗಿ ಆಯೋಜಿಸಲಾಗುವ ಆಂತರಿಕ ಕ್ರಿಕೆಟ್ ಟೂರ್ನಮೆಂಟ್. ಸೀಸನ್ 8 ಅತ್ಯಂತ ರೋಮಾಂಚಕ ಆವೃತ್ತಿ, ಇದರಲ್ಲಿ 150ಕ್ಕೂ ಹೆಚ್ಚು ಆಟಗಾರರು ಲೈವ್ ಹರಾಜಿನ ಮೂಲಕ ರಚಿಸಿದ ತಂಡಗಳಲ್ಲಿ ಸ್ಪರ್ಧಿಸುತ್ತಾರೆ.' },
         { question: 'ಈವೆಂಟ್ ಎಲ್ಲಿ ಮತ್ತು ಯಾವಾಗ ನಡೆಯುತ್ತದೆ?', answer: 'EPL ಸೀಸನ್ 8 ಮೂರು ದಿನಾಂಕಗಳಲ್ಲಿ ನಡೆಯುತ್ತದೆ: ಭವ್ಯ ಹರಾಜು 20 ಜೂನ್ 2026, ಮತ್ತು ಪಂದ್ಯಗಳು 27 ಮತ್ತು 28 ಜೂನ್ 2026 ರಂದು VKCA, ಯಲಹಂಕದಲ್ಲಿ.' },
         { question: 'ಹರಾಜು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ?', answer: 'ಹರಾಜಿನಲ್ಲಿ, 150ಕ್ಕೂ ಹೆಚ್ಚು ನೋಂದಾಯಿತ ಆಟಗಾರರನ್ನು ಬಿಡ್ಡಿಂಗ್‌ಗೆ ಇಡಲಾಗುತ್ತದೆ. ತಂಡ ಮಾಲೀಕರು ಮತ್ತು ನಾಯಕರು ಆಟಗಾರರನ್ನು ತಮ್ಮ ತಂಡಕ್ಕೆ ಸೇರಿಸಿಕೊಳ್ಳಲು ಬಿಡ್ ಮಾಡುತ್ತಾರೆ. ಅತ್ಯಧಿಕ ಬಿಡ್ ಮಾಡಿದವರು ಆಟಗಾರರನ್ನು ಗೆಲ್ಲುತ್ತಾರೆ.' },
         { question: 'ಆಟಗಾರರಾಗಿ ಯಾರು ಭಾಗವಹಿಸಬಹುದು?', answer: 'ಎಲ್ಲ ಉದ್ಯೋಗಿಗಳು EPL ಸೀಸನ್ 8 ರಲ್ಲಿ ಆಟಗಾರರಾಗಿ ನೋಂದಾಯಿಸಲು ಅರ್ಹರು. ನೋಂದಣಿ ನಂತರ, ನೀವು ಆಟಗಾರರ ಸಂಗ್ರಹದಲ್ಲಿ ಸೇರುತ್ತೀರಿ ಮತ್ತು ಭವ್ಯ ಹರಾಜಿನಲ್ಲಿ ಬಿಡ್ಡಿಂಗ್‌ಗೆ ಲಭ್ಯವಿರುತ್ತೀರಿ.' },
-        { question: 'ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ ಯಾರನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು?', answer: 'ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗಾಗಿ, ದಯವಿಟ್ಟು epltournament@epam.com ನಲ್ಲಿ ಟೂರ್ನಮೆಂಟ್ ತಂಡವನ್ನು ಸಂಪರ್ಕಿಸಿ. ನಾವು ಸಹಾಯ ಮಾಡಲು ಸಂತೋಷಪಡುತ್ತೇವೆ!' },
+        { question: 'ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ ಯಾರನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು?', answer: 'ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿಗಾಗಿ, ದಯವಿಟ್ಟು epltournamant@epl.com ನಲ್ಲಿ ಟೂರ್ನಮೆಂಟ್ ತಂಡವನ್ನು ಸಂಪರ್ಕಿಸಿ. ನಾವು ಸಹಾಯ ಮಾಡಲು ಸಂತೋಷಪಡುತ್ತೇವೆ!' },
       ],
     },
     registration: {

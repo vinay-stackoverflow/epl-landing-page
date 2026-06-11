@@ -83,7 +83,7 @@ function Registration() {
             <h3>{t.successTitle}</h3>
             <p>
               {t.successMsg}{' '}
-              <a href="mailto:epltournament@epam.com">epltournament@epam.com</a>.
+              <a href="mailto:epltournamant@epl.com">epltournamant@epl.com</a>.
             </p>
           </div>
         ) : (
