@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useLang } from '../LanguageContext'
 import translations from '../translations'
 
-const FORMSPREE_URL = 'https://formspree.io/f/mgobllyg'
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxfPCoVbmKbioTHpL8MYcm135cxW5rcXFl4rE8CUgsJuVbPYpG3Jbe-y_SlGucQJK_E/exec'
 
 function Registration() {
   const { lang } = useLang()
@@ -43,14 +43,12 @@ function Registration() {
     setServerError('')
 
     try {
-      const res = await fetch(FORMSPREE_URL, {
+      const res = await fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
-          Name: form.name,
-          Email: form.email,
-          'Playing Role': form.role,
-          'Submitted At': new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
+          name: form.name,
+          email: form.email,
+          role: form.role,
         }),
       })
 
