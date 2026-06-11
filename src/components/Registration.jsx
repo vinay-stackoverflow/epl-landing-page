@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { useLang } from '../LanguageContext'
 import translations from '../translations'
 
+const FORMSPREE_URL = 'https://formspree.io/f/mgobllyg'
+
 function Registration() {
   const { lang } = useLang()
   const t = translations[lang].registration
@@ -9,6 +11,8 @@ function Registration() {
   const [form, setForm] = useState({ name: '', email: '', role: '' })
   const [errors, setErrors] = useState({})
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [serverError, setServerError] = useState('')
 
   const validate = () => {
     const newErrors = {}
@@ -27,14 +31,40 @@ function Registration() {
     setErrors({ ...errors, [e.target.name]: '' })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     const validationErrors = validate()
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors)
       return
     }
-    setSubmitted(true)
+
+    setSubmitting(true)
+    setServerError('')
+
+    try {
+      const res = await fetch(FORMSPREE_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          Name: form.name,
+          Email: form.email,
+          'Playing Role': form.role,
+          'Submitted At': new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
+        }),
+      })
+
+      if (res.ok) {
+        setSubmitted(true)
+      } else {
+        const data = await res.json()
+        setServerError(data?.error || 'Something went wrong. Please try again.')
+      }
+    } catch {
+      setServerError('Network error. Please check your connection and try again.')
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -98,7 +128,15 @@ function Registration() {
               {errors.role && <span className="error-text">{errors.role}</span>}
             </div>
 
-            <button type="submit" className="btn-primary btn-submit">{t.submitBtn}</button>
+            {serverError && <p className="error-text server-error">{serverError}</p>}
+
+            <button
+              type="submit"
+              className="btn-primary btn-submit"
+              disabled={submitting}
+            >
+              {submitting ? 'Submitting...' : t.submitBtn}
+            </button>
           </form>
         )}
       </div>
