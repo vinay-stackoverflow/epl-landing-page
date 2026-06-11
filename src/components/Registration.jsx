@@ -135,7 +135,7 @@ function Registration() {
               className="btn-primary btn-submit"
               disabled={submitting}
             >
-              {submitting ? 'Submitting...' : t.submitBtn}
+              {submitting ? t.submittingBtn : t.submitBtn}
             </button>
           </form>
         )}

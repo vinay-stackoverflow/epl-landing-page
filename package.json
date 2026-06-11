@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://RandomLex.github.io/landing-page/",
+  "homepage": "https://vinay-stackoverflow.github.io/epl-landing-page/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
