@@ -1,4 +1,10 @@
+import { useLang } from '../LanguageContext'
+import translations from '../translations'
+
 function BowlingBanner() {
+  const { lang } = useLang()
+  const t = translations[lang].banner
+
   return (
     <div className="bowling-banner">
       <img
@@ -7,7 +13,7 @@ function BowlingBanner() {
         className="bowling-banner-img"
       />
       <div className="bowling-banner-overlay">
-        <span className="bowling-banner-label">EPL Season 8 · The Battle Begins</span>
+        <span className="bowling-banner-label">{t.label}</span>
       </div>
     </div>
   )
