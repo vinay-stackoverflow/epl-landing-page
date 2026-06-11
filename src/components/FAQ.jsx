@@ -2,29 +2,29 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    question: 'Is the event free to attend?',
+    question: 'What is the EPAM Premiere League (EPL)?',
     answer:
-      'Yes! Together We Grow is completely free. We believe great communities should be accessible to everyone. Just register your spot so we can plan the right amount of food and materials.',
+      'The EPAM Premiere League is an internal cricket tournament organised for EPAM employees. Season 8 is the latest and most exciting edition yet, featuring over 150 players competing across teams assembled through a live auction.',
   },
   {
-    question: 'Do I need any special skills or background?',
+    question: 'Where and when is the event taking place?',
     answer:
-      'Not at all. This event welcomes everyone — from total beginners to experienced professionals. If you are curious and open to connecting with others, you are in the right place.',
+      'EPL Season 8 spans three dates: the Grand Auction is on 20th June 2026, and the matches are held on 27th and 28th June 2026 at VKCA, Yelahanka.',
   },
   {
-    question: 'Where exactly is the venue?',
+    question: 'How does the auction work?',
     answer:
-      'The event takes place at Kyiv Creative Hub, 14 Velyka Vasylkivska Street, Kyiv. It is a 5-minute walk from Olimpiiska metro station. Detailed directions will be sent by email after you register.',
+      'In the auction, over 150 registered players are put up for bidding. Team owners and captains place bids to recruit players into their squads. The highest bidder wins the player. Expect fierce competition and last-second drama!',
   },
   {
-    question: 'What should I bring?',
+    question: 'Who can participate as a player?',
     answer:
-      'Just yourself and your curiosity! You may want to bring a notebook and pen for the workshops. Lunch and coffee are provided. If you have a project or idea you would like to share, bring materials for that too.',
+      'All EPAM employees are eligible to register as players for EPL Season 8. Once registered, you enter the player pool and will be available for bidding at the Grand Auction.',
   },
   {
-    question: 'Will the talks be recorded?',
+    question: 'Who do I contact if I have questions?',
     answer:
-      'We plan to record the main stage talks and share them on our community channel within two weeks of the event. Workshop sessions will not be recorded to keep them interactive and honest.',
+      'For any queries, please reach out to the tournament team at epltournament@epam.com. We are happy to help!',
   },
 ]
 
@@ -39,7 +39,7 @@ function FAQ() {
     <section className="faq">
       <div className="container">
         <h2 className="section-title">Frequently Asked Questions</h2>
-        <p className="section-subtitle">Still have questions? We have answers.</p>
+        <p className="section-subtitle">Have questions? Reach us at epltournament@epam.com</p>
         <div className="faq-list">
           {faqs.map((item, index) => (
             <div
